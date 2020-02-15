@@ -1,0 +1,16 @@
+{
+  "name": "app_million_webpack",
+  "version": "0.0.1",
+  "description": "teste com webpack",
+  "main": "main/index.js",
+  "scripts": {
+    "test": "test",
+    "start": "webpack --watch --config dev.webpack.config.js"
+  },
+  "author": "Everton Vitor",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "*",
+    "webpack-cli": "^3.3.11"
+  }
+}
