@@ -1,6 +1,5 @@
-import { HotModuleReplacementPlugin } from "webpack";
 
-const path = required("path");
+const path = require("path");
 module.exports = {
   mode: "development",
   entry: "./main/index.js",
